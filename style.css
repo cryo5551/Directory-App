@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.nevbar-css {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(78, 82, 161);
+    color: azure;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 1rem;
+    margin: 2rem 5rem 1rem 5rem;
+}
+
+.btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(60, 64, 141);
+    margin: 0.5rem;
+    color: azure;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+}
+
+.information {
+    /* display: flex; */
+    /* justify-content: flex-start; */
+
+    margin: 0rem 6.5rem 3rem 6.5rem;
+    border: 0.1rem solid rgb(161, 163, 194);
+    min-height: 20rem;
+}
+
+h6 {
+    display: inline-block;
+    padding: 0.5rem 2.5rem;
+    font-weight: bold;
+    border-bottom: 0.1rem solid rgb(161, 163, 194);
+    border-right: 0.1rem solid rgb(161, 163, 194);
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+
+.info-table{
+    width: 80vw;
+    margin: 1rem auto;
+}
+
+th{
+    padding: 4px 4px;
+    text-align: center;
+}
+
+td{
+    padding: 4px 9px;
+    text-align: center;
+}
+
+#age{
+    width: 5rem;
+}
+
+input{
+    padding: 0px 5px;
+}
+
+input[type="button"]{
+    text-decoration: none;
+    background-color: transparent;
+    border: transparent;
+}
+
+.find-container{
+    margin: 1rem 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.butt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(60, 64, 141);
+    margin: 0.5rem;
+    color: azure;
+    padding: 0.2rem 1rem;
+    text-decoration: none;
+}
+
+#aadhar-input{
+    padding: 0.2rem 1rem;
+}
+
+.retrived-info{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    width: 18rem;
+    margin-left: 3rem;
+    padding: 1rem;
+    border: 0.1rem solid rgb(161, 163, 194) ;
+}
+
+.retrived-info>p{
+    margin: 0;
+    padding: 0;
+}
+
+.deleteAll{
+    float: right;
+    margin-top: 8.5rem;
+    margin-right: 2rem;
+}
+
+input [type="button"]:hover{
+background-color: rgb(40, 44, 122);
+}
+
+button:hover{
+    background-color: rgb(40, 44, 122);
+    color: white;
+}

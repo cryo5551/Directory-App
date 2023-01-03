@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Directory App</title>
+    <script src="./script.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <nav class="bg-body-tertiary">
+        <div class="navbar-text nevbar-css">
+            Bhawani's Directory App
+        </div>
+    </nav>
+
+    <div class="buttons">
+        <a class="btns" href="./index.html" >Add new Info</a>
+        <a class="btns" href="./readData.html" >Retrive Information</a>
+    </div>
+
+    <div class="information">
+        <h6>Add a Person</h6>
+
+        <table class="info-table" id="table-id">
+            <tr>
+              <th>Name</th>
+              <th>Date of birth</th>
+              <th>Aadhar Number</th>
+              <th>Mobile No.</th>
+              <th style="width: 3rem;">Age</th>
+              <th>Actions</th>
+
+            </tr>
+            <tr id="row1-id">
+              <td> <input type="text" id="name"> </td>
+              <td> <input type="date" id="DOB"> </td>
+              <td> <input type="text" id="aadhar"> </td>
+              <td> <input type="text" id="mobile"> </td>
+              <td> <input type="number" id="age"> </td>
+              <td><input type="button" id="delete" value="❌"> <input type="button" id="save" value="✅"></td>
+
+            </tr>
+          </table>
+
+          <a class="btns" onclick="addRow()" >Add</a>
+
+    </div>
+
+</body>
+
+</html>
